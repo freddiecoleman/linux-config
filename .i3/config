@@ -54,6 +54,12 @@ bindsym $mod+minus split h
 # split in vertical orientation
 bindsym $mod+bar split v
 
+# turn the current window into a scratchpad
+bindsym $mod+Shift+s move scratchpad
+
+# show the first scratchpad
+bindsym $mod+Shift+o scratchpad show
+
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
