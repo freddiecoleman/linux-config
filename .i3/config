@@ -142,3 +142,12 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# use gnome-settings-daemon to make windows pretty
+exec --no-startup-id gnome-settings-daemon
+
+# configuring wifi by cli is a pain, this makes things easier
+exec --no-startup-id nm-applet
+
+# make it possible to lock the screen
+bindsym Control_L+Alt_L+l exec "gnome-screensaver-command --lock "
