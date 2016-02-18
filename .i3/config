@@ -150,4 +150,4 @@ exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id nm-applet
 
 # make it possible to lock the screen
-bindsym Control_L+Alt_L+l exec "gnome-screensaver-command --lock "
+bindsym $mod+p exec i3lock -c 000000 -n
