@@ -151,3 +151,6 @@ exec --no-startup-id nm-applet
 
 # make it possible to lock the screen
 bindsym $mod+p exec i3lock -c 000000 -n
+
+# spotify has issue with i3 so float it to hide the problem!
+for_window [class="^Spotify$"] floating enable
