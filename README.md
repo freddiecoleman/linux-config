@@ -13,7 +13,7 @@ For now I have opted not to includes exports/aliases as these tend to change bet
 
 ## Install
 
-It is possible to install all of this apart from i3 in one swift motion using curl. I have left out i3 from the script so this remains lightweight and therefore suitable for installation on less capable devices such as a Raspberry Pi. For a Raspberry Pi I recommend using JWM instead :)
+It is possible to install all of this apart from i3 in one swift motion using curl. I have left out i3 from the script so this remains lightweight and therefore suitable for installation on less capable devices such as a Raspberry Pi where use might want to use something like JWM instead.
 
 ```
 curl https://raw.githubusercontent.com/freddiecoleman/linux-config/master/install.sh | sh
